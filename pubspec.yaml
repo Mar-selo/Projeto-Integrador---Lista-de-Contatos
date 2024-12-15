@@ -1,0 +1,26 @@
+name: contato_app
+description: A new Flutter project for managing contacts.
+
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"  # Ajuste a versão do SDK conforme necessário
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.3  # Dependência para gerenciamento de estado
+  # Adicione outras dependências que você precisar
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Adicione a configuração de assets se necessário
+  # assets:
+  #   - assets/images/
